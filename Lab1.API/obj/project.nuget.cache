@@ -1,0 +1,36 @@
+{
+  "version": 2,
+  "dgSpecHash": "OLoKJCWx35k=",
+  "success": true,
+  "projectFilePath": "C:\\Users\\COMPUMARTS\\Downloads\\Grpc-Lab1\\Lab1.API\\Order.API.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\COMPUMARTS\\.nuget\\packages\\google.protobuf\\3.34.1\\google.protobuf.3.34.1.nupkg.sha512",
+    "C:\\Users\\COMPUMARTS\\.nuget\\packages\\grpc.aspnetcore\\2.80.0\\grpc.aspnetcore.2.80.0.nupkg.sha512",
+    "C:\\Users\\COMPUMARTS\\.nuget\\packages\\grpc.aspnetcore.server\\2.80.0\\grpc.aspnetcore.server.2.80.0.nupkg.sha512",
+    "C:\\Users\\COMPUMARTS\\.nuget\\packages\\grpc.aspnetcore.server.clientfactory\\2.80.0\\grpc.aspnetcore.server.clientfactory.2.80.0.nupkg.sha512",
+    "C:\\Users\\COMPUMARTS\\.nuget\\packages\\grpc.aspnetcore.web\\2.80.0\\grpc.aspnetcore.web.2.80.0.nupkg.sha512",
+    "C:\\Users\\COMPUMARTS\\.nuget\\packages\\grpc.core.api\\2.80.0\\grpc.core.api.2.80.0.nupkg.sha512",
+    "C:\\Users\\COMPUMARTS\\.nuget\\packages\\grpc.net.client\\2.80.0\\grpc.net.client.2.80.0.nupkg.sha512",
+    "C:\\Users\\COMPUMARTS\\.nuget\\packages\\grpc.net.clientfactory\\2.80.0\\grpc.net.clientfactory.2.80.0.nupkg.sha512",
+    "C:\\Users\\COMPUMARTS\\.nuget\\packages\\grpc.net.common\\2.80.0\\grpc.net.common.2.80.0.nupkg.sha512",
+    "C:\\Users\\COMPUMARTS\\.nuget\\packages\\grpc.tools\\2.80.0\\grpc.tools.2.80.0.nupkg.sha512",
+    "C:\\Users\\COMPUMARTS\\.nuget\\packages\\microsoft.aspnetcore.cors\\2.3.9\\microsoft.aspnetcore.cors.2.3.9.nupkg.sha512",
+    "C:\\Users\\COMPUMARTS\\.nuget\\packages\\microsoft.aspnetcore.openapi\\10.0.5\\microsoft.aspnetcore.openapi.10.0.5.nupkg.sha512",
+    "C:\\Users\\COMPUMARTS\\.nuget\\packages\\microsoft.openapi\\2.0.0\\microsoft.openapi.2.0.0.nupkg.sha512",
+    "C:\\Users\\COMPUMARTS\\.nuget\\packages\\scalar.aspnetcore\\2.14.9\\scalar.aspnetcore.2.14.9.nupkg.sha512"
+  ],
+  "logs": [
+    {
+      "code": "NU1510",
+      "level": "Warning",
+      "message": "PackageReference Microsoft.AspNetCore.Cors will not be pruned. Consider removing this package from your dependencies, as it is likely unnecessary.",
+      "projectPath": "C:\\Users\\COMPUMARTS\\Downloads\\Grpc-Lab1\\Lab1.API\\Order.API.csproj",
+      "warningLevel": 1,
+      "filePath": "C:\\Users\\COMPUMARTS\\Downloads\\Grpc-Lab1\\Lab1.API\\Order.API.csproj",
+      "libraryId": "Microsoft.AspNetCore.Cors",
+      "targetGraphs": [
+        "net10.0"
+      ]
+    }
+  ]
+}

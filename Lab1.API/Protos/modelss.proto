@@ -1,0 +1,13 @@
+syntax = "proto3";
+
+option csharp_namespace = "Payment.Server.Protos";
+
+message PaymentRequest {
+  string user_id = 1;
+  double amount = 2;
+}
+
+message PaymentResponse {
+  bool success = 1;
+  string message = 2;
+}

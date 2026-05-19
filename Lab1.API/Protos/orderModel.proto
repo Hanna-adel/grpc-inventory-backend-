@@ -1,0 +1,18 @@
+syntax = "proto3";
+
+option csharp_namespace = "Order.API.Protos";
+
+message PlaceOrderRequest {
+    int32 userId = 1;
+    repeated OrderItem orderItems = 2; 
+}
+
+message OrderItem {
+    int32 productId = 1;
+    int32 Quantity = 2;
+}
+
+message PlaceOrderResponse {
+    bool success = 1;
+    string message = 2;
+}

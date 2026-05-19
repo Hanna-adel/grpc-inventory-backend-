@@ -1,0 +1,8 @@
+syntax = "proto3";
+
+option csharp_namespace = "Order.API.Protos";
+import "orderModel.proto";
+
+service OrderService {
+  rpc PlaceOrder (PlaceOrderRequest) returns (PlaceOrderResponse);
+}

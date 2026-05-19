@@ -1,0 +1,7 @@
+syntax = "proto3";
+
+option csharp_namespace = "Grpc-Lab1.Protos";
+
+service PaymentService{
+	rpc Deduct (DeductBalanceRequest) returns (DeductBalanceResponse);
+}

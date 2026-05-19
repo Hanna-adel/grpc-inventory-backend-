@@ -1,0 +1,23 @@
+syntax = "proto3";
+
+option csharp_namespace = "Grpc-Lab1.Protos";
+
+message ProductQuantityRequest {
+  int32 product_id = 1;
+  int32 quantity = 2;
+}
+
+message ProductQuantityResponse {
+  bool success = 1;
+  string Errormessage = 2;
+}
+
+message DeductBalanceRequest {
+  int32 user_id = 1;
+  double amount = 2;
+}
+
+message DeductBalanceResponse {
+  bool success = 1;
+  string Errormessage = 2;
+}

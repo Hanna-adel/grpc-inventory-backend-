@@ -1,0 +1,3 @@
+obj\Debug\net10.0/InventoryService.cs \
+obj\Debug\net10.0/InventoryServiceGrpc.cs: Protos/models.proto\
+ Protos/InventoryService.proto

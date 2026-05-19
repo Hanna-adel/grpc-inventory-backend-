@@ -1,0 +1,19 @@
+[
+  {
+    "Name": "New Profile",
+    "Projects": [
+      {
+        "Path": "Inventory.Server\\Inventory.Server.csproj",
+        "Action": "Start"
+      },
+      {
+        "Path": "Lab1.API\\Order.API.csproj",
+        "Action": "Start"
+      },
+      {
+        "Path": "Payment.Server\\Payment.Server.csproj",
+        "Action": "Start"
+      }
+    ]
+  }
+]

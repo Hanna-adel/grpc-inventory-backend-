@@ -1,0 +1,3 @@
+obj\Debug\net10.0/OrderService.cs \
+obj\Debug\net10.0/OrderServiceGrpc.cs: Protos/orderModel.proto\
+ Protos/OrderService.proto

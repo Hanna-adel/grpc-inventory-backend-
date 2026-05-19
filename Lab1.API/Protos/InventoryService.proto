@@ -1,0 +1,8 @@
+syntax = "proto3";
+
+option csharp_namespace = "Inventory.Server.Protos";
+import "models.proto";
+
+service InventoryService {
+  rpc ProductQuantity (QuantityRequest) returns (QuantityResponse);
+}

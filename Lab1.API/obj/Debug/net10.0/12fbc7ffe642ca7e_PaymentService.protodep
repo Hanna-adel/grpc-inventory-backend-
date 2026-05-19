@@ -1,0 +1,3 @@
+obj\Debug\net10.0/PaymentService.cs \
+obj\Debug\net10.0/PaymentServiceGrpc.cs: Protos/modelss.proto\
+ Protos/PaymentService.proto
